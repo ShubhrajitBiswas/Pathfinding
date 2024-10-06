@@ -14,7 +14,7 @@ const Board = () => {
     begin: false,
     end: false,
   });
-  const clickPos = useRef<{|x: number, y: number|}>({ x: -1, y: -1 });
+  const clickPos = useRef<{| x: number, y: number |}>({ x: -1, y: -1 });
 
   const onMouseDown = (e: ElementEvent<HTMLDivElement>) => {
     const ridx = Number(e.target.dataset.ridx);

@@ -38,14 +38,14 @@ const Container = () => {
         <title>Pathfinding Visualizer</title>
         <meta property="og:title" content="Pathfinding Visualizer" />
         <meta property="og:type" content="website" />
-        <meta
+        {/*   <meta
           property="og:url"
           content="https://baeharam.github.io/Pathfinding-Visualizer"
         />
         <meta
           property="og:image"
           content="https://raw.githubusercontent.com/baeharam/Pathfinding-Visualizer/master/images/visualizer.gif"
-        />
+        /> */}
       </Helmet>
       <header className="header">
         <h1 className="header__title">Pathfinding Visualizer</h1>
@@ -55,14 +55,14 @@ const Container = () => {
       <Header />
       <Board />
       <footer className="footer">
-        <p className="footer__author">Made by Haram Bae</p>
-        <a
+        <p className="footer__author">Made by Team AlgoVision</p>
+        {/*   <a
           href="https://github.com/baeharam/Pathfinding-Visualizer"
           target="_blank"
           rel="noopener noreferrer"
         >
           <FaGithub className="footer__github" />
-        </a>
+        </a> */}
       </footer>
     </>
   );
