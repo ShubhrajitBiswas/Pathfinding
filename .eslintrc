@@ -3,6 +3,7 @@
   "extends": ["airbnb", "plugin:prettier/recommended", "plugin:flowtype/recommended"],
   "plugins": ["flowtype"],
   "rules": {
+    "flowtype/space-after-type-colon": "off",
     "prettier/prettier": "error",
     "no-unused-vars": "warn",
     "no-console": "off",

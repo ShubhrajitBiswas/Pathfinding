@@ -8,10 +8,12 @@ import Dfs from './dfs';
 import Bfs from './bfs';
 
 type PathfinderType = {
-  [key: string]: | typeof Dijkstra
+  [key: string]:
+    | typeof Dijkstra
     | typeof BellmanFord
     | typeof AStar
-    | typeof Dfs,
+    | typeof Dfs
+    | typeof Bfs, // Make sure there is proper spacing
 };
 
 const Pathfinder: PathfinderType = {
