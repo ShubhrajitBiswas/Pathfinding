@@ -55,7 +55,6 @@ const Container = () => {
       <Header />
       <Board />
       <footer className="footer">
-        <p className="footer__author">Made by Team AlgoVision</p>
         {/*   <a
           href="https://github.com/baeharam/Pathfinding-Visualizer"
           target="_blank"
